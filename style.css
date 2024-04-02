@@ -43,9 +43,14 @@ p {
 }
 
 .main-info {
+	/* padding: 30px 0; */
 	display: flex;
 	align-items: center;
-	margin-left: 35px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.intro {
+	padding-left: 35px;
 }
 
 .famous-books {
@@ -64,4 +69,34 @@ p {
 	width: 100%;
 	height: 100%;
 	clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.recent-summaries-container {
+	padding: 30px;
+}
+
+.recent-summaries {
+	padding: 30px;
+	display: flex;
+}
+
+.summary-card {
+	margin: 0 15px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	/* height: 40vh; */
+	width: 30vw;
+	padding: 17px;
+}
+
+.centered_button {
+	text-align: center;
+}
+
+.btn {
+	padding: 3px 5px;
+	border: 1px solid black;
+	border-radius: 6px;
+	/* margin: 15px 0; */
+	font-size: 13px;
 }
